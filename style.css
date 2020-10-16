@@ -1,0 +1,191 @@
+                            */ body {
+                                font-family: "Open Sans", sans-serif;
+                                color: white;
+                            }
+                            
+                            .sidebar {
+                                position: relative;
+                                z-index: 9;
+                            }
+                            
+                            a {
+                                color: white;
+                            }
+                            
+                            a:hover {
+                                color: #37b3ed;
+                                text-decoration: none;
+                            }
+                            
+                            .fab {
+                                padding: 20px;
+                                font-size: 30px;
+                                width: 30px;
+                                text-align: center;
+                                text-decoration: none;
+                                border-radius: 50%;
+                            }
+                            /* Style all font awesome icons */
+                            
+                            .fab {
+                                padding: 20px;
+                                font-size: 30px;
+                                width: 50px;
+                                text-align: center;
+                                text-decoration: none;
+                            }
+                            /* Add a hover effect if you want */
+                            
+                            .fab:hover {
+                                opacity: 0.7;
+                            }
+                            /* Set a specific color for each brand */
+                            /* Facebook */
+                            
+                            .fab-facebook {
+                                background: #3B5998;
+                                color: white;
+                            }
+                            /* Twitter */
+                            
+                            .fab-twitter {
+                                background: #55ACEE;
+                                color: white;
+                            }
+                            /*--------------------------------------------------------------
+# Navigation Menu
+--------------------------------------------------------------*/
+                            /* Desktop Navigation */
+                            
+                            #header {
+                                background-color: #1a1a2e;
+                                position: fixed;
+                                height: 100%;
+                            }
+                            
+                            .nav-menu {
+                                padding-top: 30px;
+                            }
+                            
+                            .nav-menu * {
+                                margin: 0;
+                                padding: 0;
+                                list-style: none;
+                            }
+                            
+                            .nav-menu>ul>li {
+                                position: relative;
+                                white-space: nowrap;
+                            }
+                            
+                            .nav-menu a {
+                                display: flex;
+                                align-items: center;
+                                color: #a8a9b4;
+                                padding: 12px 15px;
+                                margin-bottom: 8px;
+                                transition: 0.3s;
+                                font-size: 15px;
+                            }
+                            
+                            .nav-menu a i {
+                                font-size: 24px;
+                                padding-right: 8px;
+                                color: #6f7180;
+                            }
+                            
+                            .nav-menu a:hover,
+                            .nav-menu .active>a,
+                            .nav-menu li:hover>a {
+                                text-decoration: none;
+                                color: #fff;
+                            }
+                            
+                            .nav-menu a:hover i,
+                            .nav-menu .active>a i,
+                            .nav-menu li:hover>a i {
+                                color: #149ddd;
+                            }
+                            /* Mobile Navigation */
+                            
+                            .mobile-nav-toggle {
+                                position: fixed;
+                                right: 15px;
+                                top: 15px;
+                                z-index: 9998;
+                                border: 0;
+                                background: none;
+                                font-size: 24px;
+                                transition: all 0.4s;
+                                outline: none !important;
+                                line-height: 1;
+                                cursor: pointer;
+                                text-align: right;
+                            }
+                            
+                            .mobile-nav-toggle i {
+                                color: #149ddd;
+                            }
+                            
+                            .mobile-nav-active {
+                                overflow: hidden;
+                            }
+                            
+                            .mobile-nav-active #header {
+                                left: 0;
+                            }
+                            
+                            .mobile-nav-active .mobile-nav-toggle i {
+                                color: #fff;
+                            }
+                            
+                            .name {
+                                font-family: 'Fredoka One', cursive;
+                            }
+                            
+                            .typing {
+                                font-family: 'Fredoka One', cursive;
+                            }
+                            
+                            #hero {
+                                position: fixed;
+                                top: 50%;
+                                left: 50%;
+                                /* bring your own prefixes */
+                                transform: translate(-50%, -50%);
+                            }
+                            
+                            #para {
+                                font-family: 'Mali', cursive;
+                                font-size: large;
+                            }
+                            
+                            .content {
+                                margin-top: 8%;
+                                margin-right: 10%;
+                                margin-left: 10%;
+                            }
+                            
+                            #about {
+                                margin-top: 4%;
+                                text-align: center;
+                            }
+                            
+                            .container {
+                                font-family: 'Mali', cursive;
+                            }
+                            
+                            input,
+                            textarea {
+                                box-shadow: rgb(0, 0, 0, 0.1) 0px 0px 8px;
+                                -moz-box-shadow: rgb(0, 0, 0, 0.1) 0px 0px 8px;
+                                -webkit-box-shadow: rgb(0, 0, 0, 0.1) 0px 0px 8px;
+                            }
+                            
+                            .image:after,
+                            .image:before {
+                                position: absolute;
+                                opacity: 0;
+                                transition: all 0.5s;
+                                -webkit-transition: all 0.5s;
+                            }
